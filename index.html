@@ -547,5 +547,11 @@
       </div>
     </footer>
     <!-- End footer -->
+    <script>
+      fetch('http://localhost:3000', {method: 'GET'}).then(data => {
+        console.log(data)
+      }).catch(error){
+      console.log(error)}
+    </script>
   </body>
 </html>
